@@ -354,6 +354,8 @@ crops drops drips grips gripe grape graph
 
 -	¿Cuantas variantes del algoritmo de Dijkstra hay y cuál es la diferencia entre
 ellas? 
+
+
 -	Antonio Mauttone: se utilizó para el modelado del comportamiento de pasajeros en una red de transporte público. Así optimizar los pasajeros que recogerán en la distancia más corta.
 -	Variante especializada: Cuando los pesos de arco son números enteros pequeños, las colas especializadas que aprovechan este hecho se pueden utilizar para acelerar el algoritmo de Dijkstra.
 -	Algoritmo Dial: para gráficos con pesos de borde enteros positivos, que usa una cola de cubos para obtener un tiempo de ejecución.
@@ -361,6 +363,8 @@ ellas?
 -	Algoritmo Dijkstra con parámetros de optimización dinámicos:  tiene en cuenta la variabilidad de los costes en función del momento del viaje en el que se planea atravesar cierto arco.
 
 -	Investigue sobre los ALGORITMOS DE CAMINOS MINIMOS e indique, ¿Qué similitudes encuentra, qué diferencias, en qué casos utilizar y por qué? 
+
+
 - La mayor similitud que se encuentra en estos algoritmos es que buscan la ruta más corta para llegar a su destino, en las diferencias se encuentra el resultado que deseemos encontrar y esto se dará dependiendo al algoritmo que utilicemos.
 - Por ejemplo, el algoritmo de Dijkstra, resuelve la distancia más corta desde un punto de origen hacia los demás vértices. El algoritmo de Floyd resuelve el camino más corto entre todos los nodos. Y el de Johnson permite que problema de los caminos más cortos entre todos los nodos y puede ser más rápido que el de en grafos de baja densidad.
 
